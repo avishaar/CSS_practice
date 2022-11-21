@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <img style="padding: 5% 51% 5% 9.5%;" src="./assets/images/logo.svg"/>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav me-2 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" >Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Categories</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container" style="display: flex; height: 500%;">
+
+    <div style="width: 300%;">
+      <div>
+        <img src="./assets/images/image-web-3-desktop.jpg" width=97% height=59%/>
+      </div>
+
+      <div class="container" style="display: flex; height: 500%;">
+        <div style="width: 120%;">
+          <h2 id="future">The Bright Future of Web 3.0?</h2>
+        </div>
+        <div style="flex-grow: 1;">
+          <h6 id="dive">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+          But is it really fulfilling its promise?</h6>
+          <button class="button">Read More</button>
+        </div>
+      </div>
+    </div>
+    
+    <div style="flex-grow: 1;" id="boxed">
+      <h2 id="New">New</h2>
+      <br>
+      <h5>Hydrogen VS Electric Cars</h5>
+      <h6>Will hydrogen-fueled cars ever catch up to EVs?</h6>
+      <br>
+        <hr>
+      <br>
+        <h5>The Downsides of AI Artistry</h5>
+      <h6>What are the possible adverse effects of on-demand AI image generation?</h6>
+      <br>
+        <hr>
+      <br>
+        <h5>Is VC Funding Drying Up?</h5>
+      <h6>Private funding by VC firms is down 50% YOY. We take a look at what that means.</h6>
+      <br>
+    </div>
+
+  </div>
+  
+
+  <div id="bottom" >
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/images/image-retro-pcs.jpg" class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">01</h5>
+              <p class="card-text" id="heading">Reviving Retro PCs</p>
+              <p class="card-text"><small class="text-muted">What happens when old PCs are given modern upgrades?</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/images/image-top-laptops.jpg" class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">02</h5>
+              <p class="card-text" id="heading">Top 10 Laptops of 2022</p>
+              <p class="card-text"><small class="text-muted">Our best picks for various needs and budgets.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="./assets/images/image-gaming-growth.jpg" class="img-fluid rounded-start">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">03</h5>
+              <p class="card-text" id="heading">The Growth of Gaming</p>
+              <p class="card-text"><small class="text-muted">How the pandemic has sparked fresh opportunities.</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+
+  <footer class="attribution" style="text-align: center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Avigail Shaar</a>.
+  </footer>
+
+</body>
+</html>

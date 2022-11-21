@@ -1,0 +1,81 @@
+a {
+    color: lightslategrey;
+  }
+
+a:hover {
+    color: black;
+  }
+
+#future {
+    padding-top: 12%;
+    font-weight: bold;
+    font-size: 350%;
+    line-height: 90%;
+}
+#dive {
+    font-size: 90%;
+    line-height: 160%;
+    padding-left: 12%;
+    padding-right: 6%;
+    padding-top: 10%;
+}
+.button {
+  background-color: salmon;
+  border: none;
+  color: white;
+  padding: 8px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4% 15% 5% 12% ;
+  cursor: pointer;
+
+}
+h6 {
+    color:lightslategray;
+    font-size: 90%;
+}
+h5 {
+    color:white;
+}
+#New {
+    color:rgb(216, 151, 85);
+}
+#boxed {
+    background-color:rgb(3, 3, 24) ; padding: 25px; 
+    width: 115%;
+    height: 102%;;
+}
+hr {
+    background-color: lightslategray;
+    border: 0 none;
+    color: lightslategray;
+    height: 1px;
+}
+
+.card {
+    border: none;
+}
+  
+.card-title {
+    color: rgb(173, 173, 173);
+    font-size: 200%;
+}
+
+.img-fluid {
+    height:75%;
+    width: 100%;
+}
+
+#heading {
+    font-weight: bold;
+    color: black;
+}
+#bottom {
+    display: flex;
+    justify-content: center;
+    padding: 5% 10% 5% 12%;
+
+}
+/* 10px 20px 2px 47px /*
